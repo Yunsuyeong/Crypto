@@ -45,14 +45,13 @@ const ToggleBtn = styled.button`
     border: none;
     z-index: 1;
     &:hover {
-        background-image: linear-gradient(45deg, #1fd1f9 0%, #b621fe 74%);
+        background-image: linear-gradient(45deg, #1fd1f9 74%, #b621fe 0%);
         box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
             -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
             inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
             inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
         transition: all 0.3s ease;
         color: #fff;
-        transform: rotate(180deg);
     }
 `;
 
